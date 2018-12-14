@@ -1,0 +1,102 @@
+/*
+* @Author: Administrator
+* @Date:   2018-11-10 15:06:19
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-11-12 12:44:01
+*/
+header{
+	width: 100%;
+	height: 1rem;
+	background: #f31a68;
+    position: relative;
+    display: flex; 
+    flex-direction: row; 
+}
+header .left a{
+	color: #fff;
+	font-size: 0.6rem;
+	display: block;
+	margin-top: 0.1rem;
+	padding-left: 0.46rem;
+	position: absolute;
+}
+header .right{
+	width: 100%;
+	height: 0.8rem;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	margin-top: 0.1rem
+}
+header .right .shang{
+	font-size: 0.3rem;
+	color: #fff;
+}
+header .right .xia{
+	font-size: 0.32rem;
+	color: #fff;
+}
+/*字开始*/
+.one span{
+	font-size: 0.5rem;
+	margin-left: 0.3rem;
+}
+/*字结束*/
+/*圆开始*/
+.circular{
+	width: 2.96rem;
+	height: 3.07rem;
+	border-radius: 60%;
+	/* background: #f31a68; */
+	margin-left: 2.27rem;
+	text-align: center;
+	line-height: 3.07rem;
+	margin-top: 1rem;
+}
+.circular img {  
+    width: 3.2rem;
+    height: 3.2rem;
+    text-align: center;
+}
+/*圆结束*/
+/*字体开始*/
+.success{
+	width: 3.57rem;
+	height: 1.5rem;
+	/*background: red;*/
+	margin-top: 0.4rem;
+	margin-left: 2rem;
+}
+.success li:nth-child(1){
+	font-size: 0.3rem;
+	color: #818181;
+	text-align: center;
+}
+.success li:nth-child(2){
+	font-size: 0.4rem;
+	color: #565656;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.success li:nth-child(3){
+	font-size: 0.3rem;
+	color: #818181;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+/*字体结束*/
+/*圆角矩形开始*/
+.fillet{
+	width: 2.62rem;
+	height: 0.86rem;
+	background:#f31a68;
+	/*margin: 0 auto;*/
+	margin-top: 0.73rem;
+	margin-left: 2.44rem;
+	border-radius: 0.5rem;
+	text-align: center;
+	line-height: 0.86rem;
+	color: #fff;
+	font-size: 0.3rem;
+}
+/*圆角矩形结束*/

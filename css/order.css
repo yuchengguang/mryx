@@ -1,0 +1,221 @@
+/*
+* @Author: Administrator
+* @Date:   2018-11-09 10:58:27
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-11-12 12:05:01
+*/
+header{
+	width: 100%;
+	height: 1rem;
+	background: #f31a68;
+    position: relative;
+    display: flex; 
+    flex-direction: row; 
+}
+header .left a{
+	color: #fff;
+	font-size: 0.6rem;
+	display: block;
+	margin-top: 0.1rem;
+	padding-left: 0.46rem;
+	position: absolute;
+}
+header .right{
+	width: 100%;
+	height: 0.8rem;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	margin-top: 0.1rem
+}
+header .right .shang{
+	font-size: 0.3rem;
+	color: #fff;
+}
+header .right .xia{
+	font-size: 0.3rem;
+	color: #fff;
+}
+.nei{
+    width: 7rem;
+    height: 1.8rem;
+   /*  display: flex; */
+   margin: 0 auto;
+}
+.nei h2{
+	font-size: 0.3rem;
+	color: #f31a68;
+	margin-top: 0.25rem;
+	padding-left: 0.25rem;
+}
+.dabox{
+	width: 6.7rem;
+	height: 10.02rem;
+	background:#f31a68; 
+	margin: 0 auto;
+	margin-top: 0.24rem;
+	border-top-left-radius: 0.25rem;
+	border-top-right-radius: 0.25rem;
+	position: relative;
+}
+.dabox .tu{
+	width: 100%;
+	height: 1.6rem;
+	background-image: url('../img/san.png');
+	background-size: 4rem 0.77rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.dabox .he{
+    width: 100%;
+    height: 2rem;
+    display: flex;
+   justify-content: space-between;
+	align-items:center; 
+	padding-bottom: 0.3rem;
+	border-bottom: dotted #fff; 
+	border-radius :0.5rem;
+}
+.dabox .he .zuo{
+	width:3rem; 
+	height: 1.17rem;
+	background: #22ad38;
+	margin-left: 0.18rem;
+	border-radius: 0.25rem;
+	display: flex;
+	justify-content: space-between;
+	align-items:center; 
+}
+.dabox .he .zuo .zuotu{
+	width:0.8rem; 
+	height: 0.7rem;
+	margin-left: 0.2rem;
+	background-image: url('../img/weixin.png');
+	background-size: 0.8rem 0.7rem;
+}
+.dabox .he .zuo .youzi{
+	width: 1.8rem;
+	height: 100%;
+	font-size: 0.22rem;
+	color: #fff;
+	margin-top: 0.08rem;
+}
+.dabox .he .you{
+	width:3rem; 
+	height: 1.17rem;
+	background: #ffffff;
+	margin-right:0.18rem;
+    border-radius: 0.25rem;
+    display: flex;
+    justify-content: space-between;
+	align-items:center; 
+}
+.dabox .he .you .youtu{
+	width:0.8rem; 
+	height: 0.7rem;
+	margin-left: 0.2rem;
+	background-image: url('../img/zifu.png');
+	background-size: 0.8rem 0.7rem;
+}
+.dabox .he .you .youzi{
+	width: 1.8rem;
+	height: 100%;
+	font-size: 0.22rem;
+	color: #f31a68;
+	margin-top: 0.08rem;
+}
+.dabox  .leftyuan{
+	width: 0.74rem;
+	height: 0.74rem;
+	background: #ffffff;
+	border-radius: 0.5rem;
+	position: absolute;
+	margin-left:-0.4rem;
+	margin-top: -0.4rem;
+}
+.dabox .rightyuan{
+	width: 0.74rem;
+	height: 0.74rem;
+	background: #ffffff;
+	border-radius: 0.5rem;
+	position: absolute;
+	margin-left:6.36rem;
+	margin-top:-0.46rem;
+}
+.dabox .qi{
+	width: 100%;
+	height: 1.6rem;
+	background-image: url('../img/qita.png');
+	background-size: 4rem 0.77rem;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.other{
+	width: 6rem;
+	height: 1rem;
+	background-image: url('../img/yh.png');
+	background-size: 0.71rem 0.49rem;
+	background-position: 0.4rem 0.3rem;
+	background-repeat: no-repeat;
+	border-radius: 0.22rem;
+	box-shadow: 0 0 0.1rem #f6119f;
+	margin: 0.3rem auto;
+	display: flex;
+}
+.other1{
+	width: 3.5rem;
+	height: 0.56rem;
+	margin-left: 1.2rem;
+	margin-top: 0.2rem;
+}
+.other1 div:nth-child(1){
+	font-size: 0.3rem;
+	color: #e9e9e9;
+}
+.other1 div:nth-child(2){
+	font-size: 0.3rem;
+	color: #ffffff;
+}
+.other2{
+	width: 0.57rem;
+	height: 0.26rem;
+	background: #f35aa7;
+	border-radius: 0.3rem;
+	margin-left: 1.5rem;
+	margin-top: 0.41rem;
+	color: #fff;
+	font-size: 0.24rem;
+	text-align: center;
+	line-height: 0.26rem;
+}
+.place2 {
+    width: 4.6rem;
+    height: 0.78rem;
+    background: red;
+    margin-top: 0.6rem;
+    margin-left: 0.95rem;
+    font-size: 0.3rem;
+    color: #fff;
+    text-align: center;
+    line-height: 0.7rem;
+    border-radius: 0.5rem;
+    position: relative;
+}
+.dabox  .xleftyuan{
+	width: 0.2rem;
+	height: 0.2rem;
+	background: #ffffff;
+	border-radius: 0.5rem;
+	position: absolute;
+	margin-left:1.7rem;
+	margin-top:-0.5rem;
+}
+.dabox .xrightyuan{
+	width: 0.2rem;
+	height: 0.2rem;
+	background: #ffffff;
+	border-radius: 0.5rem;
+	position: absolute;
+	margin-left:4.8rem;
+	margin-top:-0.5rem;
+}
